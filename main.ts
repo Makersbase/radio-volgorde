@@ -2,7 +2,7 @@ function ChannelSearch () {
     while (Found_Channel != Search_Channel) {
         radio.setGroup(Search_Channel)
         radio.sendValue("SChannel", Search_Channel)
-        basic.pause(1000)
+        basic.pause(50)
         if (EchoTerug == 1) {
             EchoTerug = 0
         } else {
